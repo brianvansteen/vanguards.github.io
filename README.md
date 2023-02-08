@@ -1,1 +1,5 @@
-# vanguards.github.io
+# Vanguard Volunteers
+
+---
+permalink: /index.html
+---
