@@ -19,3 +19,8 @@ function membershipValidate() {
     return alert("Your details have been submitted!");
 
 };
+
+// Data Picker Initialization
+$('.datepicker').datepicker({
+    inline: true
+});

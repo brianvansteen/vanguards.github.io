@@ -39,126 +39,85 @@
             <div class="container px-4 text-center">
                 <div class="row g-2">
                     <div class="col-xl-12 pb-3">
-                        <div class="card">
+                        <div class="card p-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Project title and search keyword</h5>
+                            </div>
+                            <form class="row gx-3 gy-2 align-items-center" id="membershipForm" name="membershipForm">
+                                <div class="col-sm-6">
+                                    <label class="visually-hidden" for="specificSizeInputName">Name</label>
+                                    <input type="text" class="form-control" id="specificSizeInputName" name='First Name' placeholder="project title">
+                                </div>
+                                <div class="col-sm-6">
+                                    <label class="visually-hidden" for="specificSizeInputGroupUsername">search keyword</label>
+                                    <div class="input-group">
+                                        <div class="input-group-text">@</div>
+                                        <input type="text" class="form-control" id="specificSizeInputGroupUsername" name='User Name' placeholder="search keyword">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-2">
+                    <div class="col-xl-12 pb-3">
+                        <div class="card p-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Project image(s)</h5>
+                            </div>
                             <div class="text-center pt-3">
                                 <img class="img-fluid" src="images/volunteers.png" class="card-img-top" alt="volunteers" width="100" height="100">
                             </div>
-                            <div class="card-body">
-                                <h5 class="card-title">Wildlife training</h5>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="blue" class="bi bi-person-fill" viewBox="0 0 16 16">
-                                    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
-                                  </svg> John Smith
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="fuchsia" class="bi bi-clock-fill" viewBox="0 0 16 16">
-                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
-                                  </svg>
-                                <p class="text-primary"> 59 days remaining!</p>
-                                <a href="/vanguards.github.io/details.html" class="btn btn-primary">More information!</a>
+                            <p class="card-text pt-5">Click to add project images:</p>
+                            <div class="text-center pt-3">
+                                <img class="img-fluid" src="images/plusSign.png" alt="Add volunteer program" style="width:30px;height:40px;" />
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="row g-2">
                     <div class="col-xl-12 pb-3">
-                        <div class="card">
-                            <div class="text-center pt-3">
-                                <img class="img-fluid" src="images/volunteers.png" class="card-img-top" alt="volunteers" width="100" height="100">
-                            </div>
+                        <div class="card p-3">
                             <div class="card-body">
-                                <h5 class="card-title">Building wells for water</h5>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="blue" class="bi bi-person-fill" viewBox="0 0 16 16">
-                                    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
-                                  </svg> John Smith
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="fuchsia" class="bi bi-clock-fill" viewBox="0 0 16 16">
-                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
-                                  </svg>
-                                <p class="text-primary"> 29 days remaining!</p>
-                                <a href="/vanguards.github.io/details.html" class="btn btn-primary">More information!</a>
+                                <h5 class="card-title">Project timeline</h5>
                             </div>
+                            <div class="text-center pb-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="blue" class="bi bi-calendar-date" viewBox="0 0 16 16">
+                                <path d="M6.445 11.688V6.354h-.633A12.6 12.6 0 0 0 4.5 7.16v.695c.375-.257.969-.62 1.258-.777h.012v4.61h.675zm1.188-1.305c.047.64.594 1.406 1.703 1.406 1.258 0 2-1.066 2-2.871 0-1.934-.781-2.668-1.953-2.668-.926 0-1.797.672-1.797 1.809 0 1.16.824 1.77 1.676 1.77.746 0 1.23-.376 1.383-.79h.027c-.004 1.316-.461 2.164-1.305 2.164-.664 0-1.008-.45-1.05-.82h-.684zm2.953-2.317c0 .696-.559 1.18-1.184 1.18-.601 0-1.144-.383-1.144-1.2 0-.823.582-1.21 1.168-1.21.633 0 1.16.398 1.16 1.23z"/>
+                                <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+                              </svg>
+                            </div>
+                            <form class="row gx-3 gy-2 align-items-center" id="membershipForm" name="membershipForm">
+                                <div class="col-sm-6">
+                                    <label class="visually-hidden" for="specificSizeInputName">Name</label>
+                                    <input type="text" class="form-control" id="specificSizeInputName" placeholder="Start Date">
+                                </div>
+                                <div class="col-sm-6">
+                                    <input placeholder="Select date" type="text" id="example" class="form-control">
+                                </div>
+                                <div class="col-sm-6">
+                                    <label class="visually-hidden" for="specificSizeInputName">Name</label>
+                                    <input type="text" class="form-control" id="specificSizeInputName" placeholder="End Date">
+                                </div>
+                                <div class="col-sm-6">
+                                    <input placeholder="Select date" type="text" id="example" class="form-control">
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
                 <div class="row g-2">
                     <div class="col-xl-12 pb-3">
                         <div class="card">
-                            <div class="text-center pt-3">
-                                <img class="img-fluid" src="images/volunteers.png" class="card-img-top" alt="volunteers" width="100" height="100">
-                            </div>
                             <div class="card-body">
-                                <h5 class="card-title">Winter shelter support</h5>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="blue" class="bi bi-person-fill" viewBox="0 0 16 16">
-                                    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
-                                  </svg> John Smith
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="fuchsia" class="bi bi-clock-fill" viewBox="0 0 16 16">
-                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
-                                  </svg>
-                                <p class="text-primary"> 25 days remaining!</p>
-                                <a href="/vanguards.github.io/details.html" class="btn btn-primary">More information!</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row g-2">
-                    <div class="col-xl-12 pb-3">
-                        <div class="card">
-                            <div class="text-center pt-3">
-                                <img class="img-fluid" src="images/volunteers.png" class="card-img-top" alt="volunteers" width="100" height="100">
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title">Animal rescue</h5>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="blue" class="bi bi-person-fill" viewBox="0 0 16 16">
-                                    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
-                                  </svg> John Smith
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="fuchsia" class="bi bi-clock-fill" viewBox="0 0 16 16">
-                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
-                                  </svg>
-                                <p class="text-primary"> 11 days remaining!</p>
-                                <a href="/vanguards.github.io/details.html" class="btn btn-primary">More information!</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row g-2">
-                    <div class="col-xl-12 pb-3">
-                        <div class="card">
-                            <div class="text-center pt-3">
-                                <img class="img-fluid" src="images/volunteers.png" class="card-img-top" alt="volunteers" width="100" height="100">
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title">Earthquake help</h5>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="blue" class="bi bi-person-fill" viewBox="0 0 16 16">
-                                    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
-                                  </svg> John Smith
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="fuchsia" class="bi bi-clock-fill" viewBox="0 0 16 16">
-                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
-                                  </svg>
-                                <p class="text-primary"> 124 days remaining!</p>
-                                <a href="/vanguards.github.io/details.html" class="btn btn-primary">More information!</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row g-2">
-                    <div class="col-xl-12 pb-3">
-                        <div class="card">
-                            <div class="text-center pt-3">
-                                <img class="img-fluid" src="images/volunteers.png" class="card-img-top" alt="volunteers" width="100" height="100">
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title">Food distribution</h5>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="blue" class="bi bi-person-fill" viewBox="0 0 16 16">
-                                    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
-                                  </svg> John Smith
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="fuchsia" class="bi bi-clock-fill" viewBox="0 0 16 16">
-                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
-                                  </svg>
-                                <p class="text-primary"> 32 days remaining!</p>
-                                <a href="/vanguards.github.io/details.html" class="btn btn-primary">More information!</a>
+                                <h5 class="card-title">Project description</h5>
+                                <form class="row gx-3 gy-2 align-items-center" id="membershipForm" name="membershipForm">
+                                    <div class="col-sm-12 pb-2">
+                                        <label class="visually-hidden" for="specificSizeInputName">Name</label>
+                                        <input type="text" class="form-control" id="specificSizeInputName" name='First Name' placeholder="project description">
+                                    </div>
+                                </form>
+                                <a href="/vanguards.github.io/add.html" class="btn btn-primary">Add files:</a>
                             </div>
                         </div>
                     </div>
@@ -168,7 +127,14 @@
     </div>
     </div>
 
-
+    <div class="container mt-5">
+        <div class="h-100">
+            <div class="d-flex justify-content-evenly">
+                <a class="btn btn-primary btn-lg ms-5" href="/vanguards.github.io/response.html">SAVE</a>
+                <a class="btn btn-primary btn-lg ms-5" href="/vanguards.github.io/welcome.html">CANCEL</a>
+            </div>
+        </div>
+    </div>
 
     <footer class="py-3 my-4 mt-5">
         <p class="text-center text-muted">© 2023 - Volunteer Vanguard</p>
